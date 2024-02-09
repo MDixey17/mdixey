@@ -3,6 +3,18 @@ import TargetLogo from "../assets/images/logos/target.png";
 import GELogo from "../assets/images/logos/gopheresports.png";
 import MLBLogo from "../assets/images/logos/mlb.png";
 
+// UMN Details
+import UMNRL from "../assets/images/logos/rlumn2.png";
+import TwitterComp from "../assets/images/details/twittercomp.png";
+import RLHostsUMN from "../assets/images/details/Rocket_league_host_umn.png";
+
+// MLB Details
+import WSTrophy from "../assets/images/me/me_wstrophy.png";
+import DueUp from "../assets/images/me/mlb-dueup.png";
+import NoResults from "../assets/images/me/mlb-noresults.png";
+import MLBPresentation from "../assets/images/me/mlb-present.png";
+import ShareButton from "../assets/images/me/mlb-sharebutton.png";
+
 const TARGET_JOB: Experience = {
   imgPath: TargetLogo,
   employer: "Target",
@@ -83,19 +95,19 @@ const DOC_SM_ESPORTS: Experience = {
       heading: "Rowing The Boat",
       content:
         "Returning to campus from the COVID-19 pandemic, I joined the Rocket League club at the University of Minnesota as the Director of Content and later the Social Media Manager for all esports titles. I held these two roles for over a year, contributing mightily to the growth of the club while expanding the partnership with University of Minnesota Athletics.",
-      attachments: [],
+      attachments: [UMNRL],
     },
     {
       heading: "Unreal Engine & The Hype Chamber",
       content:
         "Partway through my tenure as Director of Content, Epic Games released an open source Unreal Engine project that they utilized in professional Rocket League esports broadcasts. This allowed for broadcast crews to design and create the same high quality sports motion graphics into their broadcasts. Using my Computer Science knowledge, I assisted in the University of Minnesota becoming the first broadcast to successfully implement this into our content. As a result, the club received recognition from the official Rocket League social media channel and became a leader in the collegiate esports community.",
-      attachments: [],
+      attachments: [RLHostsUMN],
     },
     {
       heading: "Social Media Competitions",
       content:
         "During the 2022 calendar year, two national social media competitions were held to see which universities could generate the most interaction from their communities. I took responsibility for overseeing the University of Minnesota's entry into these two campaigns. More than 100 unique content pieces (player bios, team statistics, highlight reels, etc.) were created that led to total prizing of $13,000. This money is still being used by the club to invest back into the players and grow the community.",
-      attachments: [],
+      attachments: [TwitterComp],
     },
     {
       heading: "Club Growth & Development",
@@ -124,30 +136,30 @@ const MLB_INTERN: Experience = {
       heading: "Internship in NYC",
       content:
         "Being an avid baseball fan and player for most of my life, I was honored to have the three month internship experience with Major League Baseball out in New York City. My time was spent with the Strategy Technology and Innovation team where the focus was completing the new user experience for MLB Gameday. This work included implementing new components to meet business requirements set forth by the design team and resolving bugs that existed before I joined the team.",
-      attachments: ["Pic from office next to WS trophy"],
+      attachments: [WSTrophy],
     },
     {
       heading: `"Due Up" Component`,
       content: `One of the components I implemented was a new design for "Due Up". This component represented a display of the next three batters and relevant attributes specific to each player including which hand they use to bat and their game performance up to this point. The design team requested more be added to the display such as the player's picture and jersey number. There were also some CSS changes required to match the Figma design.`,
-      attachments: ["Before and after from presentation"],
+      attachments: [DueUp],
     },
     {
       heading: "No Results Display",
       content:
         "When users would navigate to a summary tab with no events displayed, there would be no visual indicator that the Gameday website had nothing to show. This was another contribution I made. The requirements were to add a user friendly icon from an internal library and adding text that is displayed in both English and Spanish depending on the user's settings.",
-      attachments: ["Before and after from presentation"],
+      attachments: [NoResults],
     },
     {
       heading: "Share Button Fix",
       content:
         "With several users viewing game updates from the mobile app, those viewports needed to be accounted for during implementation. One of the bugs I addressed was adjusting the styling for the share button when a user wished to share a moment in the game. Before, the button overlapped with other components. My changes allowed for a better experience.",
-      attachments: ["Before and after from presentation"],
+      attachments: [ShareButton],
     },
     {
       heading: "Non-Technical Contributions",
       content:
         "As interns, we were giving the opportunity to connect with leaders at MLB not in the engineering domain. My mentor throughout my three months was Stephen Roche, Vice President of MLB Authentic Collection/Global Consumer Products. He provided insights into how other areas of MLB were designing methods to expand the global baseball audience. I also collaborated with Scott Weisenthal, Senior Vice President of Global Marketing at MLB, on ideas for a series of implementations to increase young adult viewership during Q2 of 2023.",
-      attachments: ["Video Presentation"],
+      attachments: [MLBPresentation],
     },
   ],
   techStack: ["JavaScript", "React", "HTML", "CSS", "Storybook"],

@@ -31,23 +31,44 @@
     }
 }
 
-/* .mlb-bg {
-    background: url('../../../assets/images/hero/MLBHero.png');
+.overlay-bg {
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/overlay.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.umn-bg {
-    background: url('../../../assets/images/hero/UMNHero.png');
+.goldybot-bg {
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/goldybot.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.target-bg {
-    background: url('../../../assets/images/hero/TargetHero.png');
+.scrimbot-bg {
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/scrimbot.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-} */
+}
+
+.hc-bg {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/hype-chamber.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.strelka-bg {
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/strelka.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dd-bg {
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/dystopian-defier.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

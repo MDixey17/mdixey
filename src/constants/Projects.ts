@@ -6,6 +6,8 @@ import HypeChamber from "../assets/images/projects/hype-chamber.png";
 import Strelka from "../assets/images/projects/strelka.png";
 import DystopianDefier from "../assets/images/projects/dystopian-defier.png";
 
+import RLHostsUMN from "../assets/images/details/Rocket_league_host_umn.png";
+
 const RL_OVERLAY: Project = {
   imgPath: RLOverlay,
   name: "Rocket League Broadcast Overlay",
@@ -83,7 +85,7 @@ const HYPE_CHAMBER: Project = {
       heading: "Recognition",
       content:
         "Once these cinematics were successfully integrated into the club's broadcast, we received recognition from the official Rocket League team via social media for being the first college/university to add the Hype Chamber. This resulted in the broadcast debuting these new graphics to reach hundreds of viewers and generate tens of thousands of impressions across the club's social media platforms.",
-      attachments: [],
+      attachments: [RLHostsUMN],
     },
   ],
   techStack: [
