@@ -1,0 +1,25 @@
+.tc-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    width: 500px;
+    margin-top: 18px;
+    margin-left: 48px;
+}
+
+.tc-container {
+    background-color: var(--th-blue-one);
+    color: black;
+    font-weight: 700;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 8px;
+    border: 2px solid var(--th-blue-two);
+
+    p {
+        padding: 4px;
+        margin: 2px;
+    }
+}

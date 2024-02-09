@@ -1,0 +1,25 @@
+.card-button-button {
+    background-color: var(--th-blue-three);
+    color: var(--th-blue-one);
+    border: 2px solid var(--th-blue-two);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px;
+    width: 240px;
+    &:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+}
+
+.card-button-img {
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.card-button-text-container {
+    text-align: center;
+}

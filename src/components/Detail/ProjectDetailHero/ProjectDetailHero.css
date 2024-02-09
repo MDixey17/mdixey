@@ -1,0 +1,53 @@
+.proj-detail-hero-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: 480px;
+    background-color: black;
+}
+
+.proj-detail-hero-right {
+    img {
+        width: 256px;
+        height: auto;
+        padding-right: 5vh; 
+    }
+}
+
+.proj-detail-hero-left {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 64px;
+        font-weight: 600;
+        margin: 0 0 12px 42px;
+    }
+}
+
+/* .mlb-bg {
+    background: url('../../../assets/images/hero/MLBHero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.umn-bg {
+    background: url('../../../assets/images/hero/UMNHero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.target-bg {
+    background: url('../../../assets/images/hero/TargetHero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */

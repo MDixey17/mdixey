@@ -1,0 +1,16 @@
+.learn-more {
+    background-color: var(--th-blue-three);
+    color: var(--th-blue-one);
+    border: 2px solid var(--th-blue-two);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0;
+    width: 164px;
+    height: 40px;
+
+    &:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+}

@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/headshot.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#5DD2FE" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="The portfolio website for Matthew Dixey, a current Software Engineer for Target and former Software Engineer Intern for Major League Baseball."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/headshot.jpg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +24,34 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      :root {
+        --th-blue-one: #5DD2FE;
+        --th-blue-two: #006594;
+        --th-blue-three: #010e14;
+        --th-grey-one: #4A5A67;
+        --th-grey-two: #CCCCCC;
+        --th-white: #E6E6E6;
+        --th-black: #0C1921;
+      }
+    </style>
+    <title>Matthew Dixey</title>
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
