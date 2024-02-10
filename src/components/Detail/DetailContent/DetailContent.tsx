@@ -63,7 +63,7 @@ export const DetailContent = ({
                 <img className="dt-link-image" src={PlayIcon} alt="Demo" />
                 <a
                   className="dt-link-text"
-                  href={githubLink}
+                  href={demoLink}
                   target="_blank"
                   rel="noreferrer noopener"
                 >
