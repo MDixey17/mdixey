@@ -31,7 +31,11 @@ export const DetailPage = ({ experience, project }: DetailPageProps) => {
             techStack={project.techStack}
             bgClass={project.className}
           />
-          <DetailContent sections={project.sections} />
+          <DetailContent
+            sections={project.sections}
+            githubLink={project.githubLink}
+            demoLink={project.demoLink}
+          />
         </>
       )}
     </>

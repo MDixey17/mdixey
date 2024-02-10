@@ -35,6 +35,8 @@ const RL_OVERLAY: Project = {
   techStack: ["TypeScript", "React", "styled-components", "Web Sockets", "OBS"],
   goto: "Project/Overlay",
   className: "overlay-bg",
+  githubLink: "https://github.com/MDixey17/umn-rl-overlay-v2",
+  demoLink: "https://youtu.be/aHaUiV_c_jk",
 };
 
 const GOLDYBOT: Project = {
@@ -52,6 +54,7 @@ const GOLDYBOT: Project = {
   techStack: ["JavaScript", "Discord API", "Start GG API", "SQLite"],
   goto: "Project/Goldybot",
   className: "goldybot-bg",
+  githubLink: "https://github.com/MDixey17/goldybot",
 };
 
 const SCRIMBOT: Project = {
@@ -68,6 +71,7 @@ const SCRIMBOT: Project = {
   techStack: ["JavaScript", "Discord Gateway API", "SQLite", "Web Sockets"],
   goto: "Project/Scrimbot",
   className: "scrimbot-bg",
+  githubLink: "https://github.com/MDixey17/scrimbot",
 };
 
 const HYPE_CHAMBER: Project = {
@@ -97,6 +101,7 @@ const HYPE_CHAMBER: Project = {
   ],
   goto: "Project/HypeChamber",
   className: "hc-bg",
+  demoLink: "https://www.youtube.com/watch?v=HwYxx8k3Fyc",
 };
 
 const STRELKA: Project = {
@@ -119,6 +124,7 @@ const STRELKA: Project = {
   techStack: ["Python", "Golang"],
   goto: "Project/Strelka",
   className: "strelka-bg",
+  githubLink: "https://github.com/target/strelka",
 };
 
 const DYSTOPIAN_DEFIER: Project = {
@@ -141,6 +147,8 @@ const DYSTOPIAN_DEFIER: Project = {
   techStack: ["Unity", "C#", "Blender"],
   goto: "Project/DystopianDefier",
   className: "dd-bg",
+  githubLink: "https://github.com/MDixey17/DystopianDefiers",
+  demoLink: "https://boschybee.itch.io/dystopian-defiers",
 };
 
 export const Projects: Project[] = [

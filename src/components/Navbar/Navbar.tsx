@@ -13,14 +13,14 @@ export const Navbar = () => {
         <p>Matthew Dixey</p>
       </div>
       <div className="navbar-right-container">
-        <a href={URL_GITHUB}>
+        <a href={URL_GITHUB} target="_blank" rel="noreferrer noopener">
           <img
             className="navbar-social"
             src={GITHUB.imgPath}
             alt={GITHUB.tech}
           />
         </a>
-        <a href={URL_LINKEDIN}>
+        <a href={URL_LINKEDIN} target="_blank" rel="noreferrer noopener">
           <img
             className="navbar-social"
             src={LINKEDIN.imgPath}

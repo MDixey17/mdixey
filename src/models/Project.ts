@@ -8,6 +8,6 @@ export interface Project {
   techStack: string[];
   goto: string;
   className: string;
-  link?: string;
+  githubLink?: string;
   demoLink?: string;
 }
