@@ -72,3 +72,11 @@
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 800px) {
+    .proj-detail-hero-left {
+        h1 {
+            margin: 0 12px;
+        }
+    }
+}

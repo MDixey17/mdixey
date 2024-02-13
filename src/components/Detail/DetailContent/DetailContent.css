@@ -91,3 +91,22 @@
     height: 48px;
     margin: 8px;
 }
+
+@media (max-width: 800px) {
+    .dt-content-middle {
+        width: 100%;
+        .dt-mid-header {
+            text-align: center;
+            margin: 12px 0;
+        }
+    }
+
+    .dt-mid-img {
+        width: 70vw;
+    }
+
+    .dt-link-container {
+        flex-flow: column nowrap;
+        margin: 12px 0;
+    }
+}

@@ -23,3 +23,9 @@
         margin: 2px;
     }
 }
+
+@media (max-width: 800px) {
+    .tc-wrapper {
+        margin-left: 12px;
+    }
+}

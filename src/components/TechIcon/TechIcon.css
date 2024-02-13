@@ -3,3 +3,11 @@
     width: auto;
     padding: 8px;
 }
+
+@media (max-width: 800px) {
+    .tech-icon {
+        height: 48px;
+        width: auto;
+        padding: 4px;
+    }
+}

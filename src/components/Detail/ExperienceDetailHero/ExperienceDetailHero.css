@@ -59,3 +59,15 @@
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 800px) {
+  .exp-detail-hero-left {
+    h1 {
+        margin: 0 12px 12px;
+    }
+
+    h2 {
+        margin: 0 12px;
+    }
+  }
+}
