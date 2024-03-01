@@ -71,7 +71,7 @@
     border: 2px solid var(--th-blue-two);
     border-radius: 8px;
     width: 200px;
-    margin: 0px 8px;
+    margin: 2px 8px;
     &:hover {
         background-color: black;
         cursor: pointer;

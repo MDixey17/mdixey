@@ -27,5 +27,6 @@
 @media (max-width: 800px) {
     .tc-wrapper {
         margin-left: 12px;
+        width: 360px;
     }
 }

@@ -65,10 +65,16 @@
 
     .experiences-header {
         margin: 0;
+        font-size: 36px;
     }
 
     .experiences-text {
         margin: 24px 0;
+    }
+
+    .experiences-right {
+        margin: 0;
+        justify-content: center;
     }
 }
 

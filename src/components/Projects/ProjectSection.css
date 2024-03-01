@@ -54,3 +54,31 @@
 .projects-header {
     color: var(--th-grey-two);
 }
+
+@media (max-width: 800px) {
+    .projects-wrapper {
+        h1 {
+            font-size: 36px;
+        }
+    }
+
+    .projects-card-container {
+        flex-flow: column nowrap;
+    }
+
+    .card-button-button {
+        margin: 16px 0;
+    }
+
+    .cards-left {
+        width: 0;
+    }
+
+    .cards-right {
+        width: 0;
+    }
+
+    .cards-center {
+        width: 100%;
+    }
+}

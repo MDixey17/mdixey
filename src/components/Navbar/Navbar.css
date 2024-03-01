@@ -42,3 +42,11 @@
     height: 36px;
     padding-right: 2vw;
 }
+
+@media (max-width: 800px) {
+    .navbar-wrapper {
+        p {
+            font-size: 26px;
+        }
+    }
+}
