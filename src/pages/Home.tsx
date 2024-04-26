@@ -1,3 +1,4 @@
+import { CertificateSection } from "../components/Certificates/CertificateSection";
 import { Experiences } from "../components/Experiences/Experiences";
 import { Hero } from "../components/Hero/Hero";
 import { ProjectSection } from "../components/Projects/ProjectSection";
@@ -10,6 +11,7 @@ export const Home = () => {
       <TechList />
       <Experiences />
       <ProjectSection />
+      <CertificateSection />
     </>
   );
 };

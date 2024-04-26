@@ -5,6 +5,7 @@ import {
   DOCKER,
   GIT,
   GOLANG,
+  HADOOP,
   HTML,
   INSOMNIA,
   INTELLIJ,
@@ -18,6 +19,8 @@ import {
   POSTGRES,
   PYTHON,
   REACT,
+  SCALA,
+  SPARK,
   SPRINGBOOT,
   TYPESCRIPT,
   UNITY,
@@ -48,12 +51,15 @@ export const TechList = () => {
           <TechIcon imgPath={CS.imgPath} altText={CS.tech} />
           <TechIcon imgPath={JAVA.imgPath} altText={JAVA.tech} />
           <TechIcon imgPath={KOTLIN.imgPath} altText={KOTLIN.tech} />
+          <TechIcon imgPath={SCALA.imgPath} altText={SCALA.tech} />
           <TechIcon imgPath={SPRINGBOOT.imgPath} altText={SPRINGBOOT.tech} />
           <TechIcon imgPath={MICRONAUT.imgPath} altText={MICRONAUT.tech} />
           <TechIcon imgPath={KAFKA.imgPath} altText={KAFKA.tech} />
           <TechIcon imgPath={DOCKER.imgPath} altText={DOCKER.tech} />
           <TechIcon imgPath={POSTGRES.imgPath} altText={POSTGRES.tech} />
           <TechIcon imgPath={MONGO.imgPath} altText={MONGO.tech} />
+          <TechIcon imgPath={SPARK.imgPath} altText={SPARK.tech} />
+          <TechIcon imgPath={HADOOP.imgPath} altText={HADOOP.tech} />
           <TechIcon imgPath={UNITY.imgPath} altText={UNITY.tech} />
           <TechIcon
             imgPath={UNREAL_ENGINE.imgPath}

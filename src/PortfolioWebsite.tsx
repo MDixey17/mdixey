@@ -24,28 +24,32 @@ export const PortfolioWebsite = () => {
           element={<DetailPage experience={Jobs[2]} />}
         />
         <Route
-          path="/Project/Overlay"
+          path="/Project/VG1"
           element={<DetailPage project={Projects[0]} />}
         />
         <Route
-          path="/Project/Goldybot"
+          path="/Project/Overlay"
           element={<DetailPage project={Projects[1]} />}
         />
         <Route
-          path="/Project/Scrimbot"
+          path="/Project/Goldybot"
           element={<DetailPage project={Projects[2]} />}
         />
         <Route
-          path="/Project/HypeChamber"
+          path="/Project/Scrimbot"
           element={<DetailPage project={Projects[3]} />}
         />
         <Route
-          path="/Project/Strelka"
+          path="/Project/HypeChamber"
           element={<DetailPage project={Projects[4]} />}
         />
         <Route
-          path="/Project/DystopianDefier"
+          path="/Project/Strelka"
           element={<DetailPage project={Projects[5]} />}
+        />
+        <Route
+          path="/Project/DystopianDefier"
+          element={<DetailPage project={Projects[6]} />}
         />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

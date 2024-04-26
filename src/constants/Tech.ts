@@ -8,6 +8,9 @@ import UnityLogo from "../assets/images/icons/unity.svg";
 import UnrealEngineLogo from "../assets/images/icons/unrealengine.png";
 import VisualStudioLogo from "../assets/images/icons/visualstudio.png";
 import VSCodeLogo from "../assets/images/icons/vscode.svg";
+import SparkLogo from "../assets/images/icons/apache-spark.png";
+import HadoopLogo from "../assets/images/icons/hadoop.svg";
+import ScalaLogo from "../assets/images/icons/scala.png";
 
 const GH_BASE_URL = `https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills`;
 
@@ -153,4 +156,19 @@ export const LINKEDIN: TechStack = {
 export const YOUTUBE: TechStack = {
   tech: "YouTube",
   imgPath: `${GH_SOCIALS_BASE_URL}/youtube.svg`,
+};
+
+export const SPARK: TechStack = {
+  tech: "Apache Spark",
+  imgPath: SparkLogo,
+};
+
+export const SCALA: TechStack = {
+  tech: "Scala",
+  imgPath: ScalaLogo,
+};
+
+export const HADOOP: TechStack = {
+  tech: "Apache Hadoop",
+  imgPath: HadoopLogo,
 };

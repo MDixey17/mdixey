@@ -73,6 +73,13 @@
     background-position: center;
 }
 
+.ue5-bg {
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/untitled-ue5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media (max-width: 800px) {
     .proj-detail-hero-left {
         h1 {

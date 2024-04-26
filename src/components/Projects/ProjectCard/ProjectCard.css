@@ -23,3 +23,10 @@
 .card-button-text-container {
     text-align: center;
 }
+
+.certs-card-button-img {
+    height: 150px;
+    width: 220px;
+    border-radius: 8px;
+    margin-top: 8px;
+}

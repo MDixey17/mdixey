@@ -63,6 +63,12 @@ const TARGET_JOB: Experience = {
         "I quickly learned how to maintain secure software at Target by using internal tools. This gave me the opportunity to upgrade API dependencies while maintaining their existing functionality. Most of this work would be done with the microservices I contributed to and upgrading Spring Boot to the latest stable version. However, I found that it wasn't as simple as upgrading one dependency as others would also need to be upgraded. I documented these combinations for future use, especially when creating new microservices that sought to have zero known vulnerabilities.",
       attachments: [],
     },
+    {
+      heading: "Jack of All Trades",
+      content:
+        "Now fully onboarding with the Internal Audience Tool team, I've become invested in learning data engineering to extend my full-stack knowledge. This opportunity has allowed for me to learn and grasp the fundamentals of new technologies including Scala, Spark, and Hadoop. Challenging myself to take on work associated in the data tier domain, I continue to add new tools to my skillset to become a more well-rounded software engineer and being capable of supporting my team in the frontend, backend, or data spaces.",
+      attachments: [],
+    },
   ],
   techStack: [
     "JavaScript",
@@ -80,6 +86,9 @@ const TARGET_JOB: Experience = {
     "Docker",
     "Mongo",
     "Postgres",
+    "Hadoop",
+    "Scala",
+    "Spark",
   ],
   goto: "Experience/Target",
   className: "target-bg",

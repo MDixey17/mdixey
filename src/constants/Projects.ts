@@ -5,8 +5,25 @@ import ScrimBot from "../assets/images/projects/scrimbot.png";
 import HypeChamber from "../assets/images/projects/hype-chamber.png";
 import Strelka from "../assets/images/projects/strelka.png";
 import DystopianDefier from "../assets/images/projects/dystopian-defier.png";
-
 import RLHostsUMN from "../assets/images/details/Rocket_league_host_umn.png";
+import UntitledUE5 from "../assets/images/projects/untitled-ue5.png";
+
+const UNTITLED_UE5_PROJECT: Project = {
+  imgPath: UntitledUE5,
+  name: "Untitled UE5 Project",
+  duration: "March 2024 - Present",
+  sections: [
+    {
+      heading: "Under Construction...",
+      content:
+        "This project is in progress and still in the early stages. The goal is to develop a fully functional multiplayer video game utilizing concepts from modern day titles, all built in Unreal Engine 5.3. Stay tuned for additional progress updates with this project.",
+      attachments: [],
+    },
+  ],
+  techStack: ["Unreal Engine", "Blueprints", "C++"],
+  goto: "Project/VG1",
+  className: "ue5-bg",
+};
 
 const RL_OVERLAY: Project = {
   imgPath: RLOverlay,
@@ -152,6 +169,7 @@ const DYSTOPIAN_DEFIER: Project = {
 };
 
 export const Projects: Project[] = [
+  UNTITLED_UE5_PROJECT,
   RL_OVERLAY,
   GOLDYBOT,
   SCRIMBOT,

@@ -4,7 +4,7 @@ import "./ProjectSection.css";
 
 export const ProjectSection = () => {
   return (
-    <div className="projects-wrapper">
+    <div className="projects-wrapper blue-bottom-border">
       <h1 className="projects-header">Projects</h1>
       <p>
         During my free time, I find unique projects and applications to build to
