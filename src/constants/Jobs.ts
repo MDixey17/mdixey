@@ -22,6 +22,12 @@ const TARGET_JOB: Experience = {
   duration: "January 2023 - Present",
   section: [
     {
+      heading: "TL;DR",
+      content:
+        "Being with the company for over a year, I've contributed full-stack features that have accumulated to hundreds of hours of manual work saved and over $10 million in revenue for the company. My skill set has grown to include frontend (React, TypeScript, Node, Express), backend (Java, Kotlin, Spring Boot, Micronaut, Kafka), and data (Postgres, Mongo, Apache Spark, Apache Hadoop) technologies. A brief summary of my accomplishments include pioneering an internal Slack bot that is utilized by over 4,000 team members, exceeding expectations by contributing to multiple teams across the company instead of just my own such as the internal component library team, and being told that my performance is exceptional from multiple senior managers.",
+      attachments: [],
+    },
+    {
       heading: "Technology Leadership Program (TLP)",
       content:
         "After graduating with a Bachelors of Science from the University of Minnesota, I joined Target's Technology Leadership Program where I would spend one year with two different teams (six months each), learn to demonstrate Target's core values, and understand how the company adapts to an always-changing environment to meet their guests' needs. During my time in the program, I would exceed expectations by designing innovative, full-stack solutions to applications that saved the company millions of dollars while showing a continued drive for learning by contributing to other projects outside of my assigned teams.",
@@ -66,7 +72,7 @@ const TARGET_JOB: Experience = {
     {
       heading: "Jack of All Trades",
       content:
-        "Now fully onboarding with the Internal Audience Tool team, I've become invested in learning data engineering to extend my full-stack knowledge. This opportunity has allowed for me to learn and grasp the fundamentals of new technologies including Scala, Spark, and Hadoop. Challenging myself to take on work associated in the data tier domain, I continue to add new tools to my skillset to become a more well-rounded software engineer and being capable of supporting my team in the frontend, backend, or data spaces.",
+        "Now fully onboarded with the Internal Audience Tool team, I've invested my time and efforts in learning data engineering to extend my full-stack knowledge. Work I've completed includes leading the discovery of an internal scheduled data job tool for Apache Spark jobs that provides a usable interface to pass specific configurations for the Spark job as well as building a CI/CD pipeline that automatically updates all necessary scripts and JAR files utilized in these big data jobs. My efforts are responsible for saving hundreds of hours of manual engineering work, resulting in growth for my team and the company.",
       attachments: [],
     },
   ],
@@ -86,9 +92,10 @@ const TARGET_JOB: Experience = {
     "Docker",
     "Mongo",
     "Postgres",
-    "Hadoop",
+    "Apache Hadoop",
     "Scala",
-    "Spark",
+    "Apache Spark",
+    "CI/CD",
   ],
   goto: "Experience/Target",
   className: "target-bg",
