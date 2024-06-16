@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mdixey/static/css/main.cb8612c6.css",
-    "main.js": "/mdixey/static/js/main.f5287654.js",
+    "main.js": "/mdixey/static/js/main.fbd87dd9.js",
     "static/media/me_wstrophy.png": "/mdixey/static/media/me_wstrophy.2d8398ed8ccb8e75d34d.png",
     "static/media/dystopian-defier.png": "/mdixey/static/media/dystopian-defier.6da89d86ce8e13719af2.png",
     "static/media/overlay.png": "/mdixey/static/media/overlay.5f498bbf342ad587be50.png",
@@ -43,10 +43,10 @@
     "static/media/chevron-right-solid.svg": "/mdixey/static/media/chevron-right-solid.36cb63e87295d268ba681fefbd0f6d11.svg",
     "static/media/chevron-left-solid.svg": "/mdixey/static/media/chevron-left-solid.6575d0989d1d411eb12c04f99df6e6b3.svg",
     "main.cb8612c6.css.map": "/mdixey/static/css/main.cb8612c6.css.map",
-    "main.f5287654.js.map": "/mdixey/static/js/main.f5287654.js.map"
+    "main.fbd87dd9.js.map": "/mdixey/static/js/main.fbd87dd9.js.map"
   },
   "entrypoints": [
     "static/css/main.cb8612c6.css",
-    "static/js/main.f5287654.js"
+    "static/js/main.fbd87dd9.js"
   ]
 }
