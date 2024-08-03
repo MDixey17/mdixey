@@ -1,19 +1,19 @@
-import { Experience } from "../models/Experience";
-import TargetLogo from "../assets/images/logos/target.png";
-import GELogo from "../assets/images/logos/gopheresports.png";
-import MLBLogo from "../assets/images/logos/mlb.png";
+import { Experience } from "../models/Experience"
+import TargetLogo from "../assets/images/logos/target.png"
+import GELogo from "../assets/images/logos/gopheresports.png"
+import MLBLogo from "../assets/images/logos/mlb.png"
 
 // UMN Details
-import UMNRL from "../assets/images/logos/rlumn2.png";
-import TwitterComp from "../assets/images/details/twittercomp.png";
-import RLHostsUMN from "../assets/images/details/Rocket_league_host_umn.png";
+import UMNRL from "../assets/images/logos/rlumn2.png"
+import TwitterComp from "../assets/images/details/twittercomp.png"
+import RLHostsUMN from "../assets/images/details/Rocket_league_host_umn.png"
 
 // MLB Details
-import WSTrophy from "../assets/images/me/me_wstrophy.png";
-import DueUp from "../assets/images/me/mlb-dueup.png";
-import NoResults from "../assets/images/me/mlb-noresults.png";
-import MLBPresentation from "../assets/images/me/mlb-present.png";
-import ShareButton from "../assets/images/me/mlb-sharebutton.png";
+import WSTrophy from "../assets/images/me/me_wstrophy.png"
+import DueUp from "../assets/images/me/mlb-dueup.png"
+import NoResults from "../assets/images/me/mlb-noresults.png"
+import MLBPresentation from "../assets/images/me/mlb-present.png"
+import ShareButton from "../assets/images/me/mlb-sharebutton.png"
 
 const TARGET_JOB: Experience = {
   imgPath: TargetLogo,
@@ -75,6 +75,12 @@ const TARGET_JOB: Experience = {
         "Now fully onboarded with the Internal Audience Tool team, I've invested my time and efforts in learning data engineering to extend my full-stack knowledge. Work I've completed includes leading the discovery of an internal scheduled data job tool for Apache Spark jobs that provides a usable interface to pass specific configurations for the Spark job as well as building a CI/CD pipeline that automatically updates all necessary scripts and JAR files utilized in these big data jobs. My efforts are responsible for saving hundreds of hours of manual engineering work, resulting in growth for my team and the company.",
       attachments: [],
     },
+    {
+      heading: "Value of Efforts",
+      content:
+        "With the three different teams that I've been part of during my tenure at Target, my efforts have led to at least 10 weeks of manual work saved, contributing to applications that generate over $1 billion in annual revenue, and optimizing existing engineer workflows to provide rapid response times to on-call support issues. Per recent events, my team was presented with a feature request that would immediately result in $15 million of savings for the company. In the span of two weeks, myself alongside two lead engineers were able to fully develop this new feature. This is just one of many examples that continue to expand on the sections above of how my efforts at Target have benefited the company and positively impacting the bottom line.",
+      attachments: [],
+    },
   ],
   techStack: [
     "JavaScript",
@@ -99,7 +105,7 @@ const TARGET_JOB: Experience = {
   ],
   goto: "Experience/Target",
   className: "target-bg",
-};
+}
 
 const DOC_SM_ESPORTS: Experience = {
   imgPath: GELogo,
@@ -140,7 +146,7 @@ const DOC_SM_ESPORTS: Experience = {
   ],
   goto: "Experience/UMN",
   className: "umn-bg",
-};
+}
 
 const MLB_INTERN: Experience = {
   imgPath: MLBLogo,
@@ -181,6 +187,6 @@ const MLB_INTERN: Experience = {
   techStack: ["JavaScript", "React", "HTML", "CSS", "Storybook"],
   goto: "Experience/MLB",
   className: "mlb-bg",
-};
+}
 
-export const Jobs: Experience[] = [TARGET_JOB, DOC_SM_ESPORTS, MLB_INTERN];
+export const Jobs: Experience[] = [TARGET_JOB, DOC_SM_ESPORTS, MLB_INTERN]

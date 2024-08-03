@@ -80,6 +80,20 @@
     background-position: center;
 }
 
+.bt-bg {
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/blue-titanium.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.f1-ih-bg {
+    background: linear-gradient(45deg,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url('../../../assets/images/projects/f1-insights-hub.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media (max-width: 800px) {
     .proj-detail-hero-left {
         h1 {

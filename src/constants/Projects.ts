@@ -1,12 +1,72 @@
-import { Project } from "../models/Project";
-import RLOverlay from "../assets/images/projects/overlay.png";
-import GoldyBot from "../assets/images/projects/goldybot.png";
-import ScrimBot from "../assets/images/projects/scrimbot.png";
-import HypeChamber from "../assets/images/projects/hype-chamber.png";
-import Strelka from "../assets/images/projects/strelka.png";
-import DystopianDefier from "../assets/images/projects/dystopian-defier.png";
-import RLHostsUMN from "../assets/images/details/Rocket_league_host_umn.png";
-import UntitledUE5 from "../assets/images/projects/untitled-ue5.png";
+import { Project } from "../models/Project"
+import RLOverlay from "../assets/images/projects/overlay.png"
+import GoldyBot from "../assets/images/projects/goldybot.png"
+import ScrimBot from "../assets/images/projects/scrimbot.png"
+import HypeChamber from "../assets/images/projects/hype-chamber.png"
+import Strelka from "../assets/images/projects/strelka.png"
+import DystopianDefier from "../assets/images/projects/dystopian-defier.png"
+import RLHostsUMN from "../assets/images/details/Rocket_league_host_umn.png"
+import UntitledUE5 from "../assets/images/projects/untitled-ue5.png"
+import F1InsightsHub from "../assets/images/projects/f1-insights-hub.png"
+import BlueTitanium from "../assets/images/projects/blue-titanium.png"
+
+const F1_INSIGHTS_HUB: Project = {
+  imgPath: F1InsightsHub,
+  name: "F1 Insights Hub",
+  duration: "June 2024 - August 2024",
+  sections: [
+    {
+      heading: "Lights Out And Away We Go",
+      content:
+        "With a growing passion for Formula 1 Racing, I wanted to develop a web application that can be a quick one-stop place of information for circuits, drivers, and teams that are part of Formula 1. This also led to the discovery of two public facing APIs that enable the application to acquire the most up-to-date information for different statistical categories, enhancing the quality of the dashboard.",
+      attachments: [],
+    },
+    {
+      heading: "Delivering Upgrades",
+      content:
+        "Despite this project being at a completed stage, I believe it shows my skills as a developer to identify opportunities for efficiency when working on projects. This is demonstrated with the entire dashboard utilizing my Blue Titanium component library that is published to NPM. When I make future enhancements to this dashboard, I will be easily able to create new components without needing to modify too much of what has already been created, following standard modern software development methodologies.",
+      attachments: [],
+    },
+  ],
+  techStack: [
+    "React",
+    "Vite",
+    "TypeScript",
+    "Axios",
+    "REST APIs",
+    "CSS",
+    "GitHub Actions",
+  ],
+  goto: "Project/F1-Insights-Hub",
+  className: "f1-ih-bg",
+  githubLink: "https://github.com/MDixey17/f1-insights-hub",
+  demoLink: "https://mdixey17.github.io/f1-insights-hub/",
+}
+
+const BLUE_TITANIUM_UI: Project = {
+  imgPath: BlueTitanium,
+  name: "Blue Titanium UI",
+  duration: "June 2024 - July 2024",
+  sections: [
+    {
+      heading: "Public Component Library",
+      content:
+        "After seeing the repetition in components that I've been using across personal projects, I decided that it was time to develop my own NPM package that contained several React components that I can easily bring into my other projects. For example, my Formula 1 Insights Hub web application utilizes this library to create a responsive, dynamic application. This library is publicly available for any frontend developer to add to their project and can be found with the link at the bottom of this page.",
+      attachments: [],
+    },
+    {
+      heading: "Book of Components",
+      content:
+        "The components that are included in this library include, but is not limited to, a vast assortment of buttons and inputs, a loading indicator, and a section component that implements the flexbox CSS styling to be a quick, easy way to implement a dynamic changing section of the webpage that quickly responds to various screen sizes. While this project is currently published with minimal bugs, I am continuing to expand its capabilities to meet more of my requirements for future project creations, hoping to assist other developers as well.",
+      attachments: [],
+    },
+  ],
+  techStack: ["React", "TypeScript", "Storybook", "CSS", "GitHub Actions"],
+  goto: "Project/BlueTitanium",
+  className: "bt-bg",
+  githubLink: "https://github.com/MDixey17/blue-titanium",
+  demoLink: "https://www.npmjs.com/package/blue-titanium-ui",
+}
 
 const UNTITLED_UE5_PROJECT: Project = {
   imgPath: UntitledUE5,
@@ -23,7 +83,7 @@ const UNTITLED_UE5_PROJECT: Project = {
   techStack: ["Unreal Engine", "Blueprints", "C++"],
   goto: "Project/VG1",
   className: "ue5-bg",
-};
+}
 
 const RL_OVERLAY: Project = {
   imgPath: RLOverlay,
@@ -54,7 +114,7 @@ const RL_OVERLAY: Project = {
   className: "overlay-bg",
   githubLink: "https://github.com/MDixey17/umn-rl-overlay-v2",
   demoLink: "https://youtu.be/aHaUiV_c_jk",
-};
+}
 
 const GOLDYBOT: Project = {
   imgPath: GoldyBot,
@@ -72,7 +132,7 @@ const GOLDYBOT: Project = {
   goto: "Project/Goldybot",
   className: "goldybot-bg",
   githubLink: "https://github.com/MDixey17/goldybot",
-};
+}
 
 const SCRIMBOT: Project = {
   imgPath: ScrimBot,
@@ -89,7 +149,7 @@ const SCRIMBOT: Project = {
   goto: "Project/Scrimbot",
   className: "scrimbot-bg",
   githubLink: "https://github.com/MDixey17/scrimbot",
-};
+}
 
 const HYPE_CHAMBER: Project = {
   imgPath: HypeChamber,
@@ -119,7 +179,7 @@ const HYPE_CHAMBER: Project = {
   goto: "Project/HypeChamber",
   className: "hc-bg",
   demoLink: "https://www.youtube.com/watch?v=HwYxx8k3Fyc",
-};
+}
 
 const STRELKA: Project = {
   imgPath: Strelka,
@@ -142,7 +202,7 @@ const STRELKA: Project = {
   goto: "Project/Strelka",
   className: "strelka-bg",
   githubLink: "https://github.com/target/strelka",
-};
+}
 
 const DYSTOPIAN_DEFIER: Project = {
   imgPath: DystopianDefier,
@@ -166,9 +226,11 @@ const DYSTOPIAN_DEFIER: Project = {
   className: "dd-bg",
   githubLink: "https://github.com/MDixey17/DystopianDefiers",
   demoLink: "https://boschybee.itch.io/dystopian-defiers",
-};
+}
 
 export const Projects: Project[] = [
+  F1_INSIGHTS_HUB,
+  BLUE_TITANIUM_UI,
   UNTITLED_UE5_PROJECT,
   RL_OVERLAY,
   GOLDYBOT,
@@ -176,4 +238,4 @@ export const Projects: Project[] = [
   HYPE_CHAMBER,
   STRELKA,
   DYSTOPIAN_DEFIER,
-];
+]
