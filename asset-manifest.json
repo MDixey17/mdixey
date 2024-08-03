@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mdixey/static/css/main.cb8612c6.css",
-    "main.js": "/mdixey/static/js/main.fbd87dd9.js",
+    "main.css": "/mdixey/static/css/main.ea24366e.css",
+    "main.js": "/mdixey/static/js/main.5ba8534b.js",
     "static/media/me_wstrophy.png": "/mdixey/static/media/me_wstrophy.2d8398ed8ccb8e75d34d.png",
     "static/media/dystopian-defier.png": "/mdixey/static/media/dystopian-defier.6da89d86ce8e13719af2.png",
     "static/media/overlay.png": "/mdixey/static/media/overlay.5f498bbf342ad587be50.png",
@@ -21,11 +21,13 @@
     "static/media/Rocket_league_host_umn.png": "/mdixey/static/media/Rocket_league_host_umn.84bbe2150b7d354b2729.png",
     "static/media/sql-data-sci.png": "/mdixey/static/media/sql-data-sci.110805922f211f635f11.png",
     "static/media/mlb-sharebutton.png": "/mdixey/static/media/mlb-sharebutton.7623be0d45550b32d0b9.png",
+    "static/media/f1-insights-hub.png": "/mdixey/static/media/f1-insights-hub.4f15073ec391b8ff6026.png",
     "static/media/TargetHero.png": "/mdixey/static/media/TargetHero.5b0f47176466adc3d73d.png",
     "static/media/mlb-dueup.png": "/mdixey/static/media/mlb-dueup.af807d110987f1703dfb.png",
     "static/media/strelka.png": "/mdixey/static/media/strelka.539abb0422b0bd39a9f4.png",
     "static/media/gopheresports.png": "/mdixey/static/media/gopheresports.4e4cb429e3cb871d1bfe.png",
     "static/media/visualstudio.png": "/mdixey/static/media/visualstudio.28fc64d1c81b50606412.png",
+    "static/media/blue-titanium.png": "/mdixey/static/media/blue-titanium.a486bc7ebc1674ad6b98.png",
     "static/media/micronaut.png": "/mdixey/static/media/micronaut.5275765f6a0da0df27b1.png",
     "static/media/jira.png": "/mdixey/static/media/jira.893d0405b62aadc7335b.png",
     "static/media/intellij.png": "/mdixey/static/media/intellij.4f3a5fdb570280df9bfd.png",
@@ -42,11 +44,11 @@
     "static/media/unity.svg": "/mdixey/static/media/unity.fe4a9b2be3dc578f2b917a06de9a40dd.svg",
     "static/media/chevron-right-solid.svg": "/mdixey/static/media/chevron-right-solid.36cb63e87295d268ba681fefbd0f6d11.svg",
     "static/media/chevron-left-solid.svg": "/mdixey/static/media/chevron-left-solid.6575d0989d1d411eb12c04f99df6e6b3.svg",
-    "main.cb8612c6.css.map": "/mdixey/static/css/main.cb8612c6.css.map",
-    "main.fbd87dd9.js.map": "/mdixey/static/js/main.fbd87dd9.js.map"
+    "main.ea24366e.css.map": "/mdixey/static/css/main.ea24366e.css.map",
+    "main.5ba8534b.js.map": "/mdixey/static/js/main.5ba8534b.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb8612c6.css",
-    "static/js/main.fbd87dd9.js"
+    "static/css/main.ea24366e.css",
+    "static/js/main.5ba8534b.js"
   ]
 }
