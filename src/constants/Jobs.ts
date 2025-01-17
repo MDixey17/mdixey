@@ -24,7 +24,7 @@ const TARGET_JOB: Experience = {
     {
       heading: "TL;DR",
       content:
-        "Being with the company for over a year, I've contributed full-stack features that have accumulated to hundreds of hours of manual work saved and over $10 million in revenue for the company. My skill set has grown to include frontend (React, TypeScript, Node, Express), backend (Java, Kotlin, Spring Boot, Micronaut, Kafka), and data (Postgres, Mongo, Apache Spark, Apache Hadoop) technologies. A brief summary of my accomplishments include pioneering an internal Slack bot that is utilized by over 4,000 team members, exceeding expectations by contributing to multiple teams across the company instead of just my own such as the internal component library team, and being told that my performance is exceptional from multiple senior managers.",
+        "Being with the company for over two years, I've contributed full-stack features that have accumulated to hundreds of hours of manual work saved and over $10 million in revenue for the company. My skill set has grown to include frontend (React, TypeScript, Node, Express), backend (Java, Kotlin, Spring Boot, Micronaut, Kafka), and data (Postgres, Mongo, Apache Spark, Apache Hadoop) technologies. A brief summary of my accomplishments include pioneering an internal Slack bot that is utilized by over 4,000 team members, exceeding expectations by contributing to multiple teams across the company instead of just my own such as the internal component library team, and being told that my performance is exceptional from multiple senior managers.",
       attachments: [],
     },
     {
@@ -80,6 +80,11 @@ const TARGET_JOB: Experience = {
       content:
         "With the three different teams that I've been part of during my tenure at Target, my efforts have led to at least 10 weeks of manual work saved, contributing to applications that generate over $1 billion in annual revenue, and optimizing existing engineer workflows to provide rapid response times to on-call support issues. Per recent events, my team was presented with a feature request that would immediately result in $15 million of savings for the company. In the span of two weeks, myself alongside two lead engineers were able to fully develop this new feature. This is just one of many examples that continue to expand on the sections above of how my efforts at Target have benefited the company and positively impacting the bottom line.",
       attachments: [],
+    },
+    {
+      heading: "Taking the Lead",
+      content: "Having grown in my current role, I've challenged myself to take on more responsibilities. These include, but are not limited to, running point on resolving backend vulnerabilities for over 50 microservices and 20 libraries, being responsible for all frontend changes on our two internal applications, and leading the discovery of integration with select social media platforms such as TikTok, Pinterest, and Meta. These efforts align with expectations of a senior (L5) engineer while I currently hold the title of an L4 engineer, demonstrating my ability to exceed expectations and complete more work than what is expected of me.",
+      attachments: []
     },
   ],
   techStack: [
